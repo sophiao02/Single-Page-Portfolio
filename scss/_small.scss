@@ -72,7 +72,7 @@ nav {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,6 +87,39 @@ section {
     padding: 0 20px;
   }
 }
+
+.card {
+  background-color: white; // Light background for the card
+  border-radius: 8px; // Rounded corners
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  display: flex; // Flexbox layout
+  flex-direction: column; // Stack elements vertically
+  overflow: hidden; // Keeps all content within the rounded borders
+  margin: 15px;
+  //width: 100%;
+  //margin-bottom: 20px;
+
+  img {
+  width: 100%; // Responsive image width
+  height: auto; // Maintain aspect ratio
+  object-fit: cover; // Ensures the image covers the designated area without distortion
+  }
+  }
+
+  .card-content {
+    padding: 20px; // Padding inside the card
+
+    h2 {
+      margin-top: 0; // Removes top margin from the heading
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: .9rem;
+      //line-height: 1.6; // Enhanced readability
+    }
+  }
+
 
 .social-media-icons {
   display: flex;

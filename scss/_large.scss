@@ -14,3 +14,15 @@ nav ul {
   position: fixed;
   li {flex:none;}
 }
+
+.card {
+  flex-direction: row; // Horizontal layout on wider screens
+
+  img {
+    flex-basis: 20%; // Image takes up 40% of the card
+  }
+
+  .card-content {
+    flex-basis: 80%; // Content takes up 60% of the card
+  }
+}
