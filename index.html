@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Single Page Portfolio</title>
+    <meta name="description" content="Sophia's Sample Start File with SCSS">
+    <meta name="author" content="Sophia Otis">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="css/styles.min.css" rel="stylesheet">
+
+<!-- fav icon stuff -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+
+    <div id="headerWrapper">
+        <header>
+            <img src="images/logo.png" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x" alt="Logo">
+            <h1>DWDD 2160</h1>
+        </header>
+    </div>
+
+    <div id="navWrapper">
+        <nav>
+        <ul>
+            <li class="active"><a href="#one"><img src="images/about.png"><span>About Me</span></a></li>
+            <li><a href="#two"><img src="images/goals.png"><span>Career Goals</span></a></li>
+            <li><a href="#three"><img src="images/tech.png"><span>Tech Stack</span></a></li>
+            <li><a href="#four"><img src="images/work.png"><span>My Work</span></a></li>
+            <li><a href="#five"><img src="images/contact.png"><span>Contact</span></a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <div id="mainWrapper">
+        <main>
+            <section id="one">
+                <h1>About Me</h1>
+                <p>A brief paragraph introducing who you are, your profession, and what you specialize in.</p>
+                <img src="photo1.webp" alt="photo1">
+            </section>
+            <section id="two">
+                <h1>Career Goals</h1>
+                <p>A statement of your career vision or a quote that inspires you professionally.</p>
+                <p>Goals List: Short-term and long-term professional goals.</p>
+            </section>
+            <section id="three">
+                <h1>Tech Stack</h1>
+                <p>Skills Matrix: A visual representation (could be icons or a simple list) of technologies you are proficient in, such as programming languages, frameworks, and tools.</p>
+                <p>Learning Path: Brief mention of technologies you're currently learning or plan to learn.</p>
+            </section>
+            <section id="four">
+                <h1>My Work</h1>
+                <p>Portfolio Pieces: Thumbnails linking to detailed case studies or live projects.</p>
+                <p>Description: A short description of each project, the challenges faced, and the solutions implemented.</p>
+            </section>
+            <section id="five">
+                <h1>Contact</h1>
+                
+                <div class="social-media-icons">
+                    <a href="#"><img src="images/email.png" alt="email"></a>
+                    <a href="#"><img src="images/phone.png" alt="phone"></a>
+                    <a href="https://linkedin.com/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="https://facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://github.com/"><img src="images/github.png" alt="GitHub"></a>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <div id="footerWrapper">
+        <footer>
+            <p>&copy; <span id="year">x</span> &bull; Sophia Otis</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
