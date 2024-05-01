@@ -118,6 +118,14 @@ section {
       font-size: .9rem;
       //line-height: 1.6; // Enhanced readability
     }
+    h3 a {
+      text-decoration: none;
+      color: $fontColor;
+      cursor: pointer;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
   }
 
 
